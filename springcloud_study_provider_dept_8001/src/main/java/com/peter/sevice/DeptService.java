@@ -1,0 +1,1 @@
+package com.peter.sevice;import com.peter.entities.Dept;import java.util.List;/** * @ClassName DeptService * @Description TODO * @Auther peter * @Date 2019-06-09 23:20 * @Version 1.1.0 */public interface DeptService{    public boolean add(Dept dept);    public Dept    get(Long id);    public List<Dept> list();}

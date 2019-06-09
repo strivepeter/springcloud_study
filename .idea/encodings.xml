@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/../springcloud_study" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../springcloud_study/springcloud_study_api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../springcloud_study/springcloud_study_api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../springcloud_study/springcloud_study_provider_dept_8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud_study_api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud_study_provider_dept_80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud_study_provider_dept_80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud_study_provider_dept_8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud_study_provider_dept_8001" charset="UTF-8" />
   </component>
 </project>
