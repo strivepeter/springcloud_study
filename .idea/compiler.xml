@@ -17,4 +17,11 @@
       <module name="springcloud_study_provider_dept_8001" target="1.8" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud_study" options="-parameters" />
+      <module name="springcloud_study_api" options="-parameters" />
+      <module name="springcloud_study_provider_dept_8001" options="-parameters" />
+    </option>
+  </component>
 </project>

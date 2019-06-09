@@ -24,7 +24,7 @@
 		<module>springcloud_study_provider_dept_8001</module>
 	</modules>
 
-
+   <dependencyManagement>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -42,6 +42,8 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+  </dependencyManagement>
+
 
 	<build>
 		<plugins>
