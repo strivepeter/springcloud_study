@@ -27,7 +27,7 @@
 
 	<modules>
 		<module>springcloud_study_api</module>
-		<module>springcloud_study_provider_dept_80</module>
+		<module>springcloud_consumer-dept-80</module>
 		<module>springcloud_study_provider_dept_8001</module>
 	</modules>
 

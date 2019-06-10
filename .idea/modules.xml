@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloud_consumer-dept-80/springcloud_consumer-dept-80.iml" filepath="$PROJECT_DIR$/springcloud_consumer-dept-80/springcloud_consumer-dept-80.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud_study.iml" filepath="$PROJECT_DIR$/springcloud_study.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud_study_api/springcloud_study_api.iml" filepath="$PROJECT_DIR$/springcloud_study_api/springcloud_study_api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcloud_study_provider_dept_80/springcloud_study_provider_dept_80.iml" filepath="$PROJECT_DIR$/springcloud_study_provider_dept_80/springcloud_study_provider_dept_80.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud_study_provider_dept_8001/springcloud_study_provider_dept_8001.iml" filepath="$PROJECT_DIR$/springcloud_study_provider_dept_8001/springcloud_study_provider_dept_8001.iml" />
     </modules>
   </component>
