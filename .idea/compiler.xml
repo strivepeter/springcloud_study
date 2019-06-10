@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springcloud_eureka_7001" />
         <module name="springcloud_study" />
         <module name="springcloud_study_api" />
         <module name="springcloud_study_provider_dept_8001" />
@@ -14,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springcloud_consumer-dept-80" target="1.8" />
+      <module name="springcloud_eureka_7001" target="1.8" />
       <module name="springcloud_study" target="1.8" />
       <module name="springcloud_study_api" target="1.8" />
       <module name="springcloud_study_provider_dept_80" target="1.8" />
@@ -24,6 +26,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springcloud_consumer-dept-80" options="-parameters" />
+      <module name="springcloud_eureka_7001" options="-parameters" />
       <module name="springcloud_study" options="-parameters" />
       <module name="springcloud_study_api" options="-parameters" />
       <module name="springcloud_study_provider_dept_80" options="-parameters" />
