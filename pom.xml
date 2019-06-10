@@ -27,6 +27,7 @@
         <module>springcloud_consumer-dept-80</module>
         <module>springcloud_study_provider_dept_8001</module>
         <module>springcloud_eureka_7001</module>
+        <module>springcloud_provider_dept_8001</module>
     </modules>
 
 
@@ -84,18 +85,15 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
+                <version>1.5.9.RELEASE</version>
             </dependency>
 
             <dependency>
                 <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-tomcat</artifactId>
-                <scope>provided</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-test</artifactId>
-                <scope>test</scope>
+                <version>1.5.9.RELEASE</version>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
 
