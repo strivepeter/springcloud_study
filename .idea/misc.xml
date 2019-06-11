@@ -11,13 +11,9 @@
         <option value="$PROJECT_DIR$/springcloud_consumer-dept-80/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_eureka_7001/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_provider_dept_8001/pom.xml" />
-      </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
         <option value="$PROJECT_DIR$/springcloud_eureka_7002/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_eureka_7003/pom.xml" />
-      </set>
+      </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="12" project-jdk-type="JavaSDK">
