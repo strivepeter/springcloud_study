@@ -9,7 +9,7 @@ mybatis:
 
 spring:
   application:
-    name: springcloud_study_provider_dept_8001
+    name: dept_provider
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
