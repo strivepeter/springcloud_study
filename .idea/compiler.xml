@@ -35,7 +35,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="eureka" options="-parameters" />
-      <module name="springcloud_consumer-dept-80" options="-parameters" />
+      <module name="springcloud_consumer-dept-80" options="" />
       <module name="springcloud_eureka_7001" options="" />
       <module name="springcloud_eureka_7002" options="" />
       <module name="springcloud_eureka_7003" options="" />
