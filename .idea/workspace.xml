@@ -155,8 +155,10 @@
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -187,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringcloudStudyProviderDept80">
+  <component name="RunManager" selected="Spring Boot.SpringcloudStudyProviderDept8001">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -298,6 +300,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="springcloud_consumer-dept-80" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
       <option name="filePath" />
       <option name="vmParameters" />
@@ -328,13 +343,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringcloudConsumerDept80Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="springcloud_consumer-dept-80" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.peter.springcloud_consumerdept80.SpringcloudConsumerDept80Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -393,7 +401,6 @@
       <item itemvalue="Spring Boot.SpringcloudStudyApiApplication" />
       <item itemvalue="Spring Boot.SpringcloudStudyProviderDept80" />
       <item itemvalue="Spring Boot.SpringcloudStudyProviderDept8001" />
-      <item itemvalue="Spring Boot.SpringcloudConsumerDept80Application" />
     </list>
   </component>
   <component name="SvnConfiguration">
