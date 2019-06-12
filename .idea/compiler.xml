@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springcloud_provider_dept_8002" />
         <module name="springcloud_consumer-dept-80" />
         <module name="springcloud_provider_dept_8001" />
         <module name="springcloud_study_api" />
         <module name="springcloud_eureka_7003" />
         <module name="springcloud_eureka_7002" />
         <module name="springcloud_eureka_7001" />
+        <module name="springcloud_provider_dept_8003" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +26,8 @@
       <module name="springcloud_eureka_7003" target="1.8" />
       <module name="springcloud_eureka_701" target="1.8" />
       <module name="springcloud_provider_dept_8001" target="1.8" />
+      <module name="springcloud_provider_dept_8002" target="1.8" />
+      <module name="springcloud_provider_dept_8003" target="1.8" />
       <module name="springcloud_study" target="1.8" />
       <module name="springcloud_study_api" target="1.8" />
       <module name="springcloud_study_provider_dept_80" target="1.8" />
@@ -41,6 +45,8 @@
       <module name="springcloud_eureka_7003" options="" />
       <module name="springcloud_eureka_701" options="-parameters" />
       <module name="springcloud_provider_dept_8001" options="" />
+      <module name="springcloud_provider_dept_8002" options="" />
+      <module name="springcloud_provider_dept_8003" options="" />
       <module name="springcloud_study" options="-parameters" />
       <module name="springcloud_study_api" options="" />
       <module name="springcloud_study_provider_dept_80" options="-parameters" />
