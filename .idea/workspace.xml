@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="999f5094-7fdb-4c54-9439-ce45f5f315d3" name="Default" comment="1)修改pom文件">
+    <list default="true" id="999f5094-7fdb-4c54-9439-ce45f5f315d3" name="Default" comment="1)提交代码到仓库">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/cfgbeans/configBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/cfgbeans/configBean.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,15 +54,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/cfgbeans/configBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="272">
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#498#499#0" expanded="true" />
                 <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,7 +92,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springcloud_provider_dept_8003/src/main/java/com/peter/SpringcloudProviderDept8003.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
@@ -152,7 +155,6 @@
         <option value="$PROJECT_DIR$/springcloud_consumer-dept-80/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/SpringcloudConsumerDept80.java" />
-        <option value="$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/cfgbeans/configBean.java" />
         <option value="$PROJECT_DIR$/springcloud_provider_dept_8001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/controller/DeptController_Consumer.java" />
         <option value="$PROJECT_DIR$/springcloud_provider_dept_8001/src/main/java/com/peter/controller/DeptController.java" />
@@ -164,6 +166,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_provider_dept_8002/src/main/java/com/peter/SpringcloudProviderDept8002.java" />
         <option value="$PROJECT_DIR$/springcloud_provider_dept_8003/src/main/java/com/peter/SpringcloudProviderDept8003.java" />
+        <option value="$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/cfgbeans/configBean.java" />
       </list>
     </option>
   </component>
@@ -580,14 +583,29 @@
       <option name="project" value="LOCAL" />
       <updated>1560345035876</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1)提交代码到仓库">
+      <created>1560389772597</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1560389772597</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1)提交代码到仓库">
+      <created>1560390272872</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1560390272872</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25868000" />
+    <option name="totallyTimeSpent" value="26531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23748212" />
       <window_info id="Structure" order="1" weight="0.24964234" />
@@ -675,14 +693,15 @@
     <MESSAGE value="1）完善单列的服务注册与发现" />
     <MESSAGE value="1)添加Ribbon" />
     <MESSAGE value="1)修改pom文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="1)修改pom文件" />
+    <MESSAGE value="1)提交代码到仓库" />
+    <option name="LAST_COMMIT_MESSAGE" value="1)提交代码到仓库" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/cfgbeans/configBean.java</url>
-          <line>20</line>
+          <line>23</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -929,18 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/cfgbeans/configBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud_provider_dept_8002/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -977,6 +984,20 @@
           <folding>
             <element signature="e#251#252#0" expanded="true" />
             <element signature="e#329#330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/cfgbeans/configBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
           </folding>
         </state>
       </provider>
