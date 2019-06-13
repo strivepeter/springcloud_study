@@ -9,6 +9,7 @@
         <module name="springcloud_provider_dept_8002" />
         <module name="springcloud_consumer-dept-80" />
         <module name="springcloud_provider_dept_8001" />
+        <module name="springcloud_consumer_dept_fegin" />
         <module name="springcloud_study_api" />
         <module name="springcloud_eureka_7003" />
         <module name="springcloud_eureka_7002" />
@@ -20,6 +21,7 @@
       <module name="demo" target="1.8" />
       <module name="eureka" target="1.8" />
       <module name="springcloud_consumer-dept-80" target="1.8" />
+      <module name="springcloud_consumer_dept_fegin" target="1.8" />
       <module name="springcloud_eureka_7001" target="1.8" />
       <module name="springcloud_eureka_7001 (1)" target="1.8" />
       <module name="springcloud_eureka_7002" target="1.8" />
@@ -40,6 +42,7 @@
       <module name="demo" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="springcloud_consumer-dept-80" options="" />
+      <module name="springcloud_consumer_dept_fegin" options="" />
       <module name="springcloud_eureka_7001" options="" />
       <module name="springcloud_eureka_7002" options="" />
       <module name="springcloud_eureka_7003" options="" />

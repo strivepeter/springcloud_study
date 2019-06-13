@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springcloud_consumer-dept-80/springcloud_consumer-dept-80.iml" filepath="$PROJECT_DIR$/springcloud_consumer-dept-80/springcloud_consumer-dept-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_consumer_dept_fegin/springcloud_consumer_dept_fegin.iml" filepath="$PROJECT_DIR$/springcloud_consumer_dept_fegin/springcloud_consumer_dept_fegin.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud_eureka_7001/springcloud_eureka_7001.iml" filepath="$PROJECT_DIR$/springcloud_eureka_7001/springcloud_eureka_7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud_eureka_7002/springcloud_eureka_7002.iml" filepath="$PROJECT_DIR$/springcloud_eureka_7002/springcloud_eureka_7002.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud_eureka_7003/springcloud_eureka_7003.iml" filepath="$PROJECT_DIR$/springcloud_eureka_7003/springcloud_eureka_7003.iml" />

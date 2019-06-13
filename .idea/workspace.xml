@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="999f5094-7fdb-4c54-9439-ce45f5f315d3" name="Default" comment="1)提交代码到仓库">
+    <list default="true" id="999f5094-7fdb-4c54-9439-ce45f5f315d3" name="Default" comment="1）提交算法">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_animal_sniffer_annotation_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_feign_1_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_consumer_dept_fegin/src/main/java/com/peter/cfgbeans/configBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_consumer_dept_fegin/src/main/java/com/peter/controller/DeptController_Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_consumer_dept_fegin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud_study_api/src/main/java/com/peter/service/DeptClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/cfgbeans/configBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/cfgbeans/configBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_study_api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_study_api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_study_api/springcloud_study_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud_study_api/springcloud_study_api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_study_api/target/classes/com/peter/SpringcloudStudyApiApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud_study_api/target/test-classes/com/peter/SpringcloudStudyApiApplicationTests.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,6 +37,7 @@
     <ignored path="$PROJECT_DIR$/springcloud_eureka_7003/target/" />
     <ignored path="$PROJECT_DIR$/springcloud_provider_dept_8002/target/" />
     <ignored path="$PROJECT_DIR$/springcloud_provider_dept_8003/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud_consumer_dept_fegin/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +50,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/SpringcloudConsumerDept80.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/controller/DeptController_Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="69" />
+            <state relative-caret-position="101">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,65 +71,89 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud_provider_dept_8001/src/main/java/com/peter/SpringcloudProviderDept8001.java">
+        <entry file="file://$PROJECT_DIR$/springcloud_consumer_dept_fegin/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="50" />
+            <state relative-caret-position="44">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud_study_api/src/main/java/com/peter/service/DeptClientService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/cfgbeans/configBean.java">
+        <entry file="file://$PROJECT_DIR$/springcloud_consumer_dept_fegin/src/main/java/com/peter/controller/DeptController_Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="267">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-                <element signature="e#711#712#0" expanded="true" />
+                <element signature="e#770#771#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#905#906#0" expanded="true" />
+                <element signature="e#1022#1052#0" expanded="true" />
+                <element signature="e#1053#1054#0" expanded="true" />
+                <element signature="e#1079#1080#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud_provider_dept_8002/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud_provider_dept_8002/src/main/java/com/peter/SpringcloudProviderDept8002.java">
+        <entry file="file://$PROJECT_DIR$/springcloud_consumer_dept_fegin/src/main/java/com/peter/SpringcloudConsumerDeptFegin.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding>
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud_provider_dept_8003/src/main/java/com/peter/SpringcloudProviderDept8003.java">
+        <entry file="file://$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud_consumer_dept_fegin/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-              </folding>
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud_study_api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="46" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -111,6 +164,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -118,7 +172,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Ribbon_add" />
+        <entry key="$PROJECT_DIR$" value="Ribbon_colony" />
       </map>
     </option>
     <option name="PUSH_TAGS">
@@ -153,7 +207,6 @@
         <option value="$PROJECT_DIR$/springcloud_eureka_7003/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud_eureka_7001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud_consumer-dept-80/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/SpringcloudConsumerDept80.java" />
         <option value="$PROJECT_DIR$/springcloud_provider_dept_8001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/controller/DeptController_Consumer.java" />
@@ -163,10 +216,17 @@
         <option value="$PROJECT_DIR$/springcloud_provider_dept_8003/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_provider_dept_8002/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springcloud_provider_dept_8003/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud_provider_dept_8002/src/main/java/com/peter/SpringcloudProviderDept8002.java" />
         <option value="$PROJECT_DIR$/springcloud_provider_dept_8003/src/main/java/com/peter/SpringcloudProviderDept8003.java" />
         <option value="$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/cfgbeans/configBean.java" />
+        <option value="$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud_study_api/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_consumer_dept_fegin/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_study_api/src/main/java/com/peter/service/DeptClienService.java" />
+        <option value="$PROJECT_DIR$/springcloud_study_api/src/main/java/com/peter/service/DeptClientService.java" />
+        <option value="$PROJECT_DIR$/springcloud_consumer_dept_fegin/src/main/java/com/peter/SpringcloudConsumerDeptFegin.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_consumer_dept_fegin/src/main/java/com/peter/controller/DeptController_Consumer.java" />
       </list>
     </option>
   </component>
@@ -179,7 +239,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springcloud_study_api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springcloud_study_api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -220,7 +290,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/springcloud_study_provider_dept_8001/src/main/java/com" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud_provider_dept_8003/src/main/java/com/peter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud_consumer_dept_fegin/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -231,11 +301,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springcloud_consumer_dept_fegin/src/main/resources" />
+      <recent name="$PROJECT_DIR$/springcloud_consumer_dept_fegin/src/main/java/com/peter" />
       <recent name="$PROJECT_DIR$/springcloud_provider_dept_8003/src/main/java/com/peter" />
       <recent name="$PROJECT_DIR$/springcloud_provider_dept_8003/src/main/resources" />
       <recent name="$PROJECT_DIR$/springcloud_provider_dept_8003" />
-      <recent name="$PROJECT_DIR$/springcloud_provider_dept_8002/src/main/resources" />
-      <recent name="$PROJECT_DIR$/springcloud_provider_dept_8002/src/main/java/com/peter" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/springcloud_study_provider_dept_8001/src/main/resources/mybatis" />
@@ -253,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringcloudStudyProviderDept80">
+  <component name="RunManager" selected="Spring Boot.SpringcloudConsumerDeptFegin">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -411,6 +481,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringcloudConsumerDeptFegin" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud_consumer_dept_fegin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.peter.SpringcloudConsumerDeptFegin" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringcloudEureka7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springcloud_eureka_7001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.peter.SpringcloudEureka7001" />
@@ -508,6 +586,7 @@
       <item itemvalue="Spring Boot.SpringcloudEureka7003" />
       <item itemvalue="Spring Boot.SpringcloudProviderDept8002" />
       <item itemvalue="Spring Boot.SpringcloudProviderDept8003" />
+      <item itemvalue="Spring Boot.SpringcloudConsumerDeptFegin" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -597,17 +676,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560390272872</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="1）提交算法">
+      <created>1560390491169</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1560390491169</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26531000" />
+    <option name="totallyTimeSpent" value="29061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23748212" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22031474" />
       <window_info id="Structure" order="1" weight="0.24964234" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -618,8 +704,8 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.57710844" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" visible="true" weight="0.47469878" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30843374" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.47469878" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -642,7 +728,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.3297568" />
-      <window_info anchor="right" id="Maven" order="11" visible="true" weight="0.16165951" />
+      <window_info anchor="right" id="Maven" order="11" visible="true" weight="0.10300429" />
     </layout>
     <layout-to-restore>
       <window_info anchor="top" content_ui="combo" id="Project" order="0" visible="true" weight="0.2867738" />
@@ -694,14 +780,15 @@
     <MESSAGE value="1)添加Ribbon" />
     <MESSAGE value="1)修改pom文件" />
     <MESSAGE value="1)提交代码到仓库" />
-    <option name="LAST_COMMIT_MESSAGE" value="1)提交代码到仓库" />
+    <MESSAGE value="1）提交算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="1）提交算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/cfgbeans/configBean.java</url>
-          <line>23</line>
+          <line>22</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -713,29 +800,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springcloud_study_provider_dept_8001/src/main/java/com/peter/sevice/impl/DeptSeviceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/springcloud_study_provider_dept_8001/src/main/java/com/peter/controller/DeptController.java" />
-    <entry file="file://$PROJECT_DIR$/springcloud_study_provider_dept_8001/src/main/java/com/peter/SpringcloudStudyProviderDept8001.java" />
-    <entry file="file://$PROJECT_DIR$/springcloud_study_provider_dept_8001/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/springcloud_consumer-dept-80/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_study_provider_dept_8001/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/springcloud_study.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2284" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud_eureka_7002/src/main/java/com/peter/SpringcloudEureka7001.java" />
     <entry file="file://$PROJECT_DIR$/springcloud_eureka_7002/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -806,31 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_consumer-dept-80/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/SpringcloudConsumerDept80.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -931,27 +970,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/controller/DeptController_Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud_provider_dept_8002/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -990,14 +1012,118 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/cfgbeans/configBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="54">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#498#499#0" expanded="true" />
             <element signature="e#539#540#0" expanded="true" />
             <element signature="e#665#666#0" expanded="true" />
             <element signature="e#711#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_consumer_dept_fegin/mvnw">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_consumer-dept-80/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_consumer_dept_fegin/src/main/java/com/peter/cfgbeans/configBean.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_consumer_dept_fegin/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_consumer_dept_fegin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_study_api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_consumer_dept_fegin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/SpringcloudConsumerDept80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_study_api/src/main/java/com/peter/service/DeptClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_consumer_dept_fegin/src/main/java/com/peter/SpringcloudConsumerDeptFegin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_consumer-dept-80/src/main/java/com/peter/controller/DeptController_Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud_consumer_dept_fegin/src/main/java/com/peter/controller/DeptController_Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#1022#1052#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
           </folding>
         </state>
       </provider>
